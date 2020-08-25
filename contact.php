@@ -54,7 +54,7 @@
   <div id="contactwrap">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-lg-offset-3">
+        <div class="col-lg-6 col-lg-offset-3 titre">
           <h4>UNE IDÉE? UN PROJET WEB?</h4>
           <h1>CONTACTEZ MOI</h1>
         </div>

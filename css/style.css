@@ -227,8 +227,19 @@ h6 {
   -o-background-size: cover;
   background-size: cover;
 }
+#aboutwrap h1 {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 70px;
+  font-weight: bold;
+}
 
-
+.titre {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
 
 /*==========================================
      Our Skills Style
