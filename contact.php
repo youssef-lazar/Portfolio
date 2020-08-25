@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <title>Youssef Lazar - Développeur Web</title>
@@ -31,18 +32,18 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="index.html">YOUSSEF LAZAR</a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="about.html">À Propos de moi</a></li>
-          <li class="active"><a href="contact.html" class="smoothscroll">Contact</a></li>
+          <li class="active"><a href="contact.php" class="smoothscroll">Contact</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -71,20 +72,24 @@
           <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
 
             <div class="form-group">
-              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Nom et Prénom" data-rule="minlen:4" data-msg="Vos Nom et Prénom s'il vous plaît" >
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Nom et Prénom"
+                data-rule="minlen:4" data-msg="Vos Nom et Prénom s'il vous plaît">
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Adresse Mail" data-rule="email" data-msg="Entrez une adresse mail valide s'il vous plaît">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Adresse Mail"
+                data-rule="email" data-msg="Entrez une adresse mail valide s'il vous plaît">
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Entrez au moins 8 caractères au sujet de votre projet s'il vous plaît">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Sujet"
+                data-rule="minlen:4" data-msg="Entrez au moins 8 caractères au sujet de votre projet s'il vous plaît">
               <div class="validate"></div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" name="message" id="contact-message" placeholder="Votre Message" rows="5" data-rule="required" data-msg="Décrivez moi votre projet en détails s'il vous plaît."></textarea>
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Votre Message" rows="5"
+                data-rule="required" data-msg="Décrivez moi votre projet en détails s'il vous plaît."></textarea>
               <div class="validate"></div>
             </div>
 
@@ -106,13 +111,13 @@
   <div id="social">
     <div class="container">
       <div class="row centered">
-        <div class="col-lg-2">
-          <a href="https://www.facebook.com/youssef.lazar"/><i class=" fa fa-facebook"></i></a>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <a href="https://www.facebook.com/youssef.lazar" /><i class="fa fa-facebook"></i></a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-xs-4 col-sm-4 col-md-4">
           <a href="https://www.linkedin.com/in/youssef-lazar-5b60b8156/"><i class="fa fa-linkedin"></i></a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-xs-4 col-sm-4 col-md-4">
           <a href="https://www.instagram.com/yousseflazr/?hl=fr"><i class="fa fa-instagram"></i></a>
         </div>
 
@@ -129,4 +134,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>
