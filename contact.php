@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <title>Youssef Lazar - Développeur Web Freelance</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Développeur web, Youssef Lazar, Site Internet, Portfolio, Freelance, Site Web, Création de site" name="keywords">
-  <meta content="Développeur web indépendant, je vous accompagne afin de sastifaire vos demandes, de vous créer un site web selon vos besoins et qui vous ressemble. Site vitrine, conception de pages web sur mesure, intégration de maquettes. Demandez un devis, je vous répondrais au plus vite!"
-        name="description">
+  <meta content="Développeur web, Youssef Lazar, Site Internet, Portfolio, Freelance, Site Web, Création de site"
+    name="keywords">
+  <meta
+    content="Développeur web indépendant, je vous accompagne afin de sastifaire vos demandes, de vous créer un site web selon vos besoins et qui vous ressemble. Site vitrine, conception de pages web sur mesure, intégration de maquettes. Demandez un devis, je vous répondrais au plus vite!"
+    name="description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="author" content="Youssef Lazar">
   <meta name="robots" content="index, follow">
@@ -27,6 +29,20 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173133916-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-173133916-2');
+  </script>
+
 </head>
 
 <body>
@@ -77,24 +93,24 @@
 
             <div class="form-group">
               <label for="name">
-								Nom 
-							</label>
+                Nom
+              </label>
               <input type="name" name="name" class="form-control" id="contact-name" placeholder="Nom et Prénom"
                 data-rule="minlen:4" data-msg="Vos Nom et Prénom s'il vous plaît">
               <div class="validate"></div>
             </div>
             <div class="form-group">
               <label for="email">
-								Email
-							</label>
+                Email
+              </label>
               <input type="email" name="email" class="form-control" id="contact-email" placeholder="Adresse Mail"
                 data-rule="email" data-msg="Entrez une adresse mail valide s'il vous plaît">
               <div class="validate"></div>
             </div>
             <div class="form-group">
               <label for="subject">
-								Sujet 
-							</label>
+                Sujet
+              </label>
               <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Sujet"
                 data-rule="minlen:4" data-msg="Entrez au moins 8 caractères au sujet de votre projet s'il vous plaît">
               <div class="validate"></div>
@@ -102,8 +118,8 @@
 
             <div class="form-group">
               <label for="message">
-								Brief de vote projet
-							</label>
+                Brief de vote projet
+              </label>
               <textarea class="form-control" name="message" id="contact-message" placeholder="Votre Message" rows="5"
                 data-rule="required" data-msg="Décrivez moi votre projet en détails s'il vous plaît."></textarea>
               <div class="validate"></div>
@@ -128,13 +144,16 @@
     <div class="container">
       <div class="row centered">
         <div class="col-xs-4 col-sm-4 col-md-4">
-          <a href="https://www.facebook.com/youssef.lazar" aria-label="Lien Facebook" /><i class="fa fa-facebook"></i></a>
+          <a href="https://www.facebook.com/youssef.lazar" aria-label="Lien Facebook" /><i
+            class="fa fa-facebook"></i></a>
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4">
-          <a href="https://www.linkedin.com/in/youssef-lazar-5b60b8156/" aria-label="Lien linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/youssef-lazar-5b60b8156/" aria-label="Lien linkedin"><i
+              class="fa fa-linkedin"></i></a>
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4">
-          <a href="https://www.instagram.com/yousseflazr/?hl=fr" aria-label="Lien Instagram"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.instagram.com/yousseflazr/?hl=fr" aria-label="Lien Instagram"><i
+              class="fa fa-instagram"></i></a>
         </div>
 
       </div>
